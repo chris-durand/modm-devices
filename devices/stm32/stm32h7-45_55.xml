@@ -282,7 +282,9 @@
     <driver name="ltdc" type="stm32-v1.0"/>
     <driver name="mdios" type="stm32-v1.0"/>
     <driver name="mdma" type="stm32-v1.0"/>
-    <driver name="opamp" type="stm32-v1.0">
+    <driver name="opamp" type="stm32-h7">
+      <feature value="high-speed"/>
+      <feature value="inverting-pga"/>
       <instance value="1"/>
       <instance value="2"/>
     </driver>

@@ -142,7 +142,9 @@
     <driver name="iwdg" type="stm32">
       <feature value="window"/>
     </driver>
-    <driver name="opamp" type="stm32-v1.0">
+    <driver name="opamp" type="stm32-f3">
+      <feature value="lock"/>
+      <feature value="timer-controlled-mux"/>
       <instance value="1"/>
       <instance value="2"/>
       <instance value="3"/>

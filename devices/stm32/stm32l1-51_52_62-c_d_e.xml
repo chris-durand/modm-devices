@@ -174,7 +174,8 @@
     </driver>
     <driver name="iwdg" type="stm32"/>
     <driver device-name="52|62" name="lcd" type="stm32-v1.0"/>
-    <driver name="opamp" type="stm32-v1.0">
+    <driver name="opamp" type="stm32-l1">
+      <feature value="low-power"/>
       <instance value="1"/>
       <instance value="2"/>
       <instance device-size="d" device-variant="" value="3"/>

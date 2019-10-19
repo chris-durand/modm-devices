@@ -156,7 +156,8 @@
     <driver name="lpuart" type="stm32-v1.1">
       <instance value="1"/>
     </driver>
-    <driver name="opamp" type="stm32-v1.0">
+    <driver name="opamp" type="stm32-l4">
+      <feature value="low-power"/>
       <instance value="1"/>
       <instance value="2"/>
     </driver>

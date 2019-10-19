@@ -267,7 +267,12 @@
     <driver name="lpuart" type="stm32-v1.3">
       <instance value="1"/>
     </driver>
-    <driver name="opamp" type="stm32-g4_tsmc90_fastopamp_cube">
+    <driver name="opamp" type="stm32-g4">
+      <feature value="high-speed"/>
+      <feature value="inverting-pga"/>
+      <feature value="lock"/>
+      <feature value="out-mux"/>
+      <feature value="timer-controlled-mux"/>
       <instance value="1"/>
       <instance value="2"/>
       <instance value="3"/>
