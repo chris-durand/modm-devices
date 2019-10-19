@@ -468,6 +468,37 @@ stm_peripherals = \
                 'devices': '*'
             }
         ]
+    }],
+    'opamp': [{
+        'instances': '*',
+        'groups': [
+            {
+                'hardware': 'stm32-f3',
+                'features': ['lock', 'timer-controlled-mux'],
+                'protocols': [],
+                'devices': [{'family': ['f3']}]
+            },{
+                'hardware': 'stm32-l4',
+                'features': ['low-power'],
+                'protocols': [],
+                'devices': [{'family': ['l4']}]
+            },{
+                'hardware': 'stm32-g4',
+                'features': ['lock', 'high-speed', 'inverting-pga', 'out-mux', 'timer-controlled-mux'],
+                'protocols': [],
+                'devices': [{'family': ['g4']}]
+            },{
+                'hardware': 'stm32-l1',
+                'features': ['low-power'],
+                'protocols': [],
+                'devices': [{'family': ['l1']}]
+            },{
+                'hardware': 'stm32-h7',
+                'features': ['high-speed', 'inverting-pga'],
+                'protocols': [],
+                'devices': [{'family': ['h7']}]
+            }
+        ]
     }]
 }
 
